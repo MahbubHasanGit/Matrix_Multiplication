@@ -9,6 +9,8 @@ int main()
     printf("Enter the number of row & column for second matrix:" );
     scanf("%d%d",&o,&p);
     //checking condition for matrix multiplication
+    //if & only if the number of columns is equal to the number of rows of second matrix
+    //multiplication is possible ,otherwise not possible
     if(m != o)
     {
         printf("Multiplication of this two matrix is not possible.");
